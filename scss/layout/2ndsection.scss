@@ -1,0 +1,69 @@
+.section2 {
+    background-image:url("../images/ismael-trevino-NDyuR4Huig8-unsplash.png");
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+    
+    &-div {
+        width: 632px;
+        height: 642px;
+
+        background-color: rgba($color: $primary-color, $alpha: 0.8);
+    }
+
+
+    &-titre {
+        padding-top: 2%;
+        font-size: $font-size-large;
+        font-weight: $font-weight-semi-bold;
+        font-family: $font-family;
+        color: $color-white;
+        padding-inline: 68px;
+        line-height: 52px;
+        margin-bottom: 40px;
+    }
+
+    &-content {
+        font-size: $font-size;
+        font-weight: $font-weight-regular;
+        font-family: $font-family;
+        color: $color-white;
+        padding-inline: 80px;
+
+        & > a {
+            border-bottom: 1px solid $color-white;
+        }
+
+        &-semi-bold {
+            font-weight: $font-weight-semi-bold;
+        }
+
+        & > br {
+            margin-bottom: 10px;
+        }
+
+    }
+
+    &-button {
+        background-color: $color-white;
+        border: none;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-semi-bold;
+        font-family: $font-family;
+        color: $primary-color;
+
+        padding-block: 14px;
+        padding-inline: 60px;
+        border-radius: 5px;
+        margin-inline: 188px;
+
+        margin-top: 40px;
+        box-shadow: 0px 8px 46px #616161;
+    }
+
+}

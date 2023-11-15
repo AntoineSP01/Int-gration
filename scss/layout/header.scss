@@ -1,0 +1,84 @@
+header {
+    background-image: $color-gradient, url("../images/Header back.png");
+    background-size: cover;
+    background-position: center;
+
+    color: $color-white;
+    height: 100vh;
+
+    & > nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 25px 46px 0 40px;
+
+        & > ul {
+            display: flex;
+            gap: 50px;
+
+            & > li {
+                font-size: $font-size;
+                font-weight: $font-weight-light;
+                font-family: $font-family;
+            }
+        }
+
+        
+
+        & > button {
+            background-color: $color-white;
+            border: none;
+            font-size: $font-size-small;
+            font-weight: $font-weight-semi-bold;
+            font-family: $font-family;
+            letter-spacing: 1px;
+            color: $primary-color;
+            width: 160px;
+            height: 39px;
+            border-radius: 5px;
+
+            box-shadow: 0px 8px 46px #616161;
+        }
+
+    }
+    
+    & > .titre {
+        height: calc(100% - 300px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        & > h1 {
+            color: $color-white;
+            font-size: $font-size-title;
+            font-weight:$font-weight-medium;
+            font-family: $font-family;
+        }
+
+        & > h2 {
+            position: absolute;
+            top: 390px;
+            left: 645px;
+            color: $color-white;
+            font-size: $font-size-x-large;
+            font-style: italic;
+            font-family: $font-family;
+            rotate: -9deg;
+        }
+    }
+
+    & > .header-icon {
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+    }
+}
+    
+
+
+
+
+
+

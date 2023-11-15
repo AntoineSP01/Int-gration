@@ -1,0 +1,302 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* This file contains the base typography styles for the project */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.83em;
+}
+
+h6 {
+  font-size: 0.67em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+header {
+  background-image: linear-gradient(315deg, rgba(178, 210, 52, 0.5), rgba(96, 160, 216, 0.5)), url("../images/Header back.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 100vh;
+}
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 46px 0 40px;
+}
+header > nav > ul {
+  display: flex;
+  gap: 50px;
+}
+header > nav > ul > li {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+header > nav > button {
+  background-color: #ffffff;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  color: #B2D234;
+  width: 160px;
+  height: 39px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 46px #616161;
+}
+header > .titre {
+  height: calc(100% - 300px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header > .titre > h1 {
+  color: #ffffff;
+  font-size: 126px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+header > .titre > h2 {
+  position: absolute;
+  top: 390px;
+  left: 645px;
+  color: #ffffff;
+  font-size: 54px;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  rotate: -9deg;
+}
+header > .header-icon {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.section {
+  background-image: url("../images/61842.png");
+  display: flex;
+  height: 100vh;
+}
+.section-div {
+  margin-top: 159px;
+  margin-left: 148px;
+  margin-bottom: 148.5px;
+  position: relative;
+  width: 40%;
+}
+.section-title {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #B2D234;
+  margin-bottom: 40px;
+}
+.section-content {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #606060;
+  width: 60%;
+}
+.section-content > br {
+  margin-bottom: 10px;
+}
+.section-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #B2D234;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  width: 256px;
+  height: 61px;
+  border-radius: 5px;
+  margin-top: 40px;
+  box-shadow: 0px 8px 46px #616161;
+}
+.section-img {
+  position: absolute;
+  left: 950px;
+  top: 760px;
+  z-index: -1;
+}
+
+.section2 {
+  background-image: url("../images/ismael-trevino-NDyuR4Huig8-unsplash.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+.section2-div {
+  width: 632px;
+  height: 642px;
+  background-color: rgba(178, 210, 52, 0.8);
+}
+.section2-titre {
+  padding-top: 2%;
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  padding-inline: 68px;
+  line-height: 52px;
+  margin-bottom: 40px;
+}
+.section2-content {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  padding-inline: 80px;
+}
+.section2-content > a {
+  border-bottom: 1px solid #ffffff;
+}
+.section2-content-semi-bold {
+  font-weight: 600;
+}
+.section2-content > br {
+  margin-bottom: 10px;
+}
+.section2-button {
+  background-color: #ffffff;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #B2D234;
+  padding-block: 14px;
+  padding-inline: 60px;
+  border-radius: 5px;
+  margin-inline: 188px;
+  margin-top: 40px;
+  box-shadow: 0px 8px 46px #616161;
+}
+
+.section3 {
+  background-image: url("../images/pattern.png");
+  padding-top: 71px;
+}
+.section3 * {
+  outline: 1px solid red;
+}
+.section3-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3-titre {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #B2D234;
+  margin-bottom: 30px;
+}
+.section3-content {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #606060;
+  text-align: center;
+}
+.section3-card {
+  width: 27%;
+}
+.section3-card-content > div {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
