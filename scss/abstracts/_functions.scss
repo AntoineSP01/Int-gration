@@ -1,1 +1,20 @@
-// This file is intentionally left blank
+@mixin button {
+    background-color: $primary-color;
+    border: none;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-semi-bold;
+    font-family: $font-family;
+    color: $color-white;
+    border-radius: 5px;
+    padding-inline: 60px;
+    padding-block: 14px;
+
+    box-shadow: 0px 8px 60px #616161;
+}
+
+
+@mixin bp($size) {
+    @media screen and (max-width: $size) {
+        @content;
+    }
+}

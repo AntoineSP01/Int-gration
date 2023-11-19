@@ -1,0 +1,83 @@
+.section5 {
+    background-image:url("../images/61842.png");
+    
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-inline: 50px;
+
+    &-image {
+        width: 450px;
+        height: 450px;
+    }
+
+    &-content{
+        margin-left: 100px;
+        width: 510px;
+
+        &-title {
+            font-size: $font-size-large;
+            font-weight: $font-weight-semi-bold;
+            font-family: $font-family;
+            color: $primary-color;
+        }
+
+        &-description {
+            color: $font-color;
+            font-size: $font-size;
+            font-weight: $font-weight-regular;
+            font-family: $font-family;
+        }
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 100px;
+
+        & > div {
+            display: flex;
+        }
+    }
+
+    &-label {
+        color: $primary-color;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-regular;
+        font-family: $font-family;
+        font-style: italic;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        &-prenom {
+            padding: 10%;
+        }
+    }
+
+    &-input {
+        margin-bottom: 10px;
+        height: 30px;
+        
+        &-nom {
+            width: 300px;
+        }
+
+        &-prenom {
+            margin-left: 10%;
+            width: 300px;
+        }
+    }
+
+
+    &-textarea {
+        margin-bottom: 10px; 
+    }
+
+    &-submit {
+        margin-top: 30px;
+        align-self: center;
+        @include button;
+    }
+
+}

@@ -10,6 +10,8 @@
         margin-bottom: 148.5px;
         position: relative;
         width: 40%;
+        height: 475px;
+
     }
 
     &-title {
@@ -25,7 +27,8 @@
         font-weight: $font-weight-regular;
         font-family: $font-family;
         color: $font-color;
-        width: 60%;
+        width: 74%;
+        margin-bottom: 40px;
 
         & > br {
             margin-bottom: 10px;
@@ -38,20 +41,8 @@
         bottom: 0;
         left: 0;
 
-        background-color: $primary-color;
-        border: none;
-        font-size: $font-size-medium;
-        font-weight: $font-weight-semi-bold;
-        font-family: $font-family;
-        color: $color-white;
-
-        width: 256px;
-        height: 61px;
-        border-radius: 5px;
-
-
-        margin-top: 40px;
-        box-shadow: 0px 8px 46px #616161;
+        @include button;
+        
     }
 
     &-img {

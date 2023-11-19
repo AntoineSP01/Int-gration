@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    padding-block: 66px;
+    background-color: $primary-color;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: center; 
+
+    & > div > h4 {
+        color: $color-white;
+        font-size: $font-size-x-medium;
+        font-weight: $font-weight-semi-bold;
+        font-family: $font-family;
+        margin-bottom: 27px;
+    }
+
+    & > a {
+        color: $color-white;
+        font-size: $font-size;
+        font-weight: $font-weight-regular;
+        font-family: $font-family;
+    }
+
+    @include bp($breakpoint-mobile) {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.footer-ul > li > a{
+    color: $color-white;
+    font-size: $font-size;
+    font-weight: $font-weight-regular;
+    font-family: $font-family;
+}

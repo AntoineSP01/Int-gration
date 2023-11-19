@@ -50,20 +50,12 @@
     }
 
     &-button {
+        @include button;
         background-color: $color-white;
-        border: none;
-        font-size: $font-size-medium;
-        font-weight: $font-weight-semi-bold;
-        font-family: $font-family;
         color: $primary-color;
 
-        padding-block: 14px;
-        padding-inline: 60px;
-        border-radius: 5px;
         margin-inline: 188px;
-
         margin-top: 40px;
-        box-shadow: 0px 8px 46px #616161;
     }
 
 }

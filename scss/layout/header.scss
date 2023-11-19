@@ -27,18 +27,13 @@ header {
         
 
         & > button {
+            @include button;
             background-color: $color-white;
-            border: none;
             font-size: $font-size-small;
-            font-weight: $font-weight-semi-bold;
-            font-family: $font-family;
-            letter-spacing: 1px;
             color: $primary-color;
-            width: 160px;
-            height: 39px;
-            border-radius: 5px;
+            padding-inline: 50px;
+            padding-block: 9px;
 
-            box-shadow: 0px 8px 46px #616161;
         }
 
     }
@@ -59,8 +54,8 @@ header {
 
         & > h2 {
             position: absolute;
-            top: 390px;
-            left: 645px;
+            top: 50%;
+            left: 40%;
             color: $color-white;
             font-size: $font-size-x-large;
             font-style: italic;
